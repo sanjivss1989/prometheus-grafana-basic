@@ -8,6 +8,6 @@ public class TestController {
 
     @RequestMapping("/health")
     public String healthCheck(){
-        return "Controller health is OK";
+        return "API Controller health is OK";
     }
 }
