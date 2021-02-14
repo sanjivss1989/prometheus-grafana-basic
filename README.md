@@ -1,4 +1,4 @@
-#Application Monitoring using Spring Boot, Prometheus DB and Grafana dashboards.
+Application Monitoring using Spring Boot, Prometheus DB and Grafana dashboards.
 
 Step 1: Go to workspace and navigate to project root folder. In this case the root folder = prometheus-grafana-basi.
 
