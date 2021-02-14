@@ -1,4 +1,15 @@
 # Application Monitoring using Spring Boot, Prometheus DB and Grafana dashboards.
+## Prometheus: 
+Prometheus is a time-series database that listens to the HTTP port on which the application is running. The metrics provided by spring actuator is pulled by a library called Micrometer and pushing the data to prometheus. 
+
+
+
+## Grafana:
+Grafana provides us an opportunity to create pictorial graphs through which we can view the necessary metrics like CPU, Memory, Latency and Requests/Second.
+Grafana uses prometheus as a datasource and renders the details in a user friendly manner through dashboards.
+
+
+## Steps: 
 
 Step 1: 
 Go to workspace and navigate to project root folder.
